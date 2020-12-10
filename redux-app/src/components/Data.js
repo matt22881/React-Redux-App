@@ -22,6 +22,11 @@ const Fact = styled.h2`
   font-size: 5rem;
 `
 
+const Fetch = styled.h2 `
+  font-size: 3rem;
+  text-align: center;
+`
+
 const Button = styled.button `
   font-size: 4rem;
   background-color: #004c54;
@@ -45,7 +50,7 @@ const Data = ({ data, isFetching, err, getData }) => {
   }
 
   if (isFetching) {
-    return <h2>Fetching your data, hang tight!</h2>;
+    return <Fetch>Fetching your data, hang tight!</Fetch>;
   }
 
   const handleClick = ()=> {
