@@ -43,7 +43,7 @@ const Button = styled.button `
 const Data = ({ data, isFetching, err, getData }) => {
   useEffect(() => {
     getData();
-  }, []);
+  }, [getData]);
 
   if (err) {
     return <h2>Something's wrong: {err}</h2>;

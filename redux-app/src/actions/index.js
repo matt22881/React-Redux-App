@@ -3,7 +3,7 @@ export const FETCHING_DATA_START = 'FETCHING_DATA_START';
 export const FETCHING_DATA_SUCCESS = 'FETCHING_DATA_SUCCESS';
 export const FETCHING_DATA_FAIL = 'FETCHING_DATA_FAIL';
 
-const url = process.env.URL
+
 
 export const getData = () => {
     return (dispatch => {
@@ -22,14 +22,3 @@ export const getData = () => {
     });
 }
 
-const setFetchStart = (name) => {
-    return({type:FETCHING_DATA_START});
-}
-
-const setFetchSuccess = (name) => {
-    return({type:FETCHING_DATA_SUCCESS});
-}
-
-const setFetchFail = (name) => {
-    return({type:FETCHING_DATA_FAIL});
-}
