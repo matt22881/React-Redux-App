@@ -12,7 +12,7 @@ const Container = styled.div `
   align-items: center;
   height: 39vh;
   width: 89vw ;
-  padding 2rem;
+  padding: 2rem;
   margin:  25vh auto;
   text-align: center;
   font-family: 'Langar', cursive;
@@ -30,7 +30,7 @@ const Fetch = styled.h2 `
 const Button = styled.button `
   font-size: 4rem;
   background-color: #004c54;
-  color: #f4f4f4;
+  color: #acc0c6;
   font-family: 'Concert One', cursive;
   height:12rem;
   width: 40rem;

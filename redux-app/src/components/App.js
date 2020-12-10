@@ -12,7 +12,8 @@ const Header = styled.header `
   width: 100%;
   height: 10rem;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
+  letter-spacing: .25rem;
   /* margin: 0 auto; */
   display: flex;
   justify-content: center;
